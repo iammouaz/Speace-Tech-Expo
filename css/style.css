@@ -1,7 +1,10 @@
 body {
     padding-left: 0px !important;
     padding-right: 0px !important;
+    font-family: 'Lato', sans-serif;
+
 }
+
 .top-nav{
     display: none;
 }
@@ -17,15 +20,109 @@ body {
 }
 
 .home-section{
-    background-image: url(../img/Space.jpg);
+    background-image: url(../img/Space.png);
     background-repeat: no-repeat;
-height: 800px;
+height: 600px;
 }
 
 
 .hamburger{
     max-width: 63px;
     margin: 25px;
+}
+
+.home-title{
+    font-size: 52px;
+    line-height: 52px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #FFF;
+}
+
+.home-contanier{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.home-haeder{
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: bold;
+    font-size: calc(100% + 4.2vw);
+    background: center / cover no-repeat url(../img/background_text.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+
+}
+
+.home-p{
+    font-size: calc(100% + 0.1vw);
+    line-height: calc(100% + 1.5vw);
+    background-color: #f7f7f7;
+    border: 3px solid #fff;
+    margin: 30px;
+}
+
+.date {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: calc(100% + 5.5vw);
+    font-weight: bold;
+    color: gray;
+    margin-top: 40px;
+}
+
+.red-line {
+    background-color: #ec5242;
+    border: 1px solid #ec5242;
+    width: 50px;
+    margin-top: 10px;
+    opacity: 100;
+}
+
+.main-page {
+    background-color: #272a31;
+    background-image: linear-gradient(
+45deg, rgba(0, 0, 0, 0.1) 25%, transparent 0), linear-gradient(
+-45deg, rgba(0, 0, 0, 0.1) 25%, transparent 0), linear-gradient(
+45deg, transparent 75%, rgba(0, 0, 0, 0.1) 0), linear-gradient(
+-45deg, transparent 75%, rgba(0, 0, 0, 0.1) 0);
+    background-size: 24px 24px;
+    background-position: 0 0, 0 12px, 12px -12px, -12px 0;
+    margin-top: -10px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-program{
+    padding-top: 10px;
+}
+
+.program-img{
+    width: 55px;
+}
+
+.program-item{
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 523px;
+    display: flex;
+    gap: 17px;
+    margin: 7px;
+    padding: 25px;
+}
+
+.program-item:hover {
+    border: 2px solid white;
+}
+.program-name{
+    font-size: calc(80% + 1vw);
+    color: #ec5242;
+}
+
+.program-p{
+    color: white;
 }
 
 @media only screen and (min-width: 768px) {
