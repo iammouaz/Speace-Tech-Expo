@@ -60,6 +60,7 @@ const speaker = document.getElementById('speakers');
 speakers.forEach((item) => {
   speaker.innerHTML += `
 <div class="speaker-card">
+<div class="grid-backimg"></div>
 <img src="${item.img}" class="card-img">
 <div class="card-flot">
 <h2 class="speaker-name">${item.name}</h2>
@@ -67,5 +68,6 @@ speakers.forEach((item) => {
 <p class="speaker-dis">${item.textCard}</p>
 </div>
 </div>
+
 `;
 });
