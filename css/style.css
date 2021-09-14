@@ -150,6 +150,8 @@ a:active {
   filter: grayscale(100%) contrast(0%);
 }
 
+
+
 .place {
   font-family: 'COCOGOOSE', sans-serif;
   font-size: calc(100% + 1.5vw);
@@ -392,8 +394,62 @@ a:active {
       display: block;
     }
 
-    .main-nav{
+    .main-nav {
+      display: none;
+  }
 
-    }
+  .hamburger {
+display: none;
+}
+
+.home-section {
+  background-size: cover;
+  padding: 60px;
+}
+.navbar{
+  margin-bottom: 0px !important;
+}
+
+.main-nav-menu {
+  height: 80px;
+  }
+
+  .nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+ .nav-link{
+   color: rgba(0,0,0,.7) !important;
+ }
+ .logo {
+  filter: grayscale(100%) contrast(0%);
+  height: 86%;
+  margin-top: 5px;
+}
+
+.home-haeder {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: bold;
+  font-size: calc(100% + 4.2vw);
+  background: center / cover no-repeat url(../img/background_text.jpg);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 60%;
+  line-height: 75px;
+    text-align: left;
+}
+
+.home-title{display: none;}
+
+.home-contanier {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
   }
 
