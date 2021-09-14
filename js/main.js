@@ -18,41 +18,41 @@ const speakers = [
     name: 'Matt Roberts',
     textCard: 'Matt has 15 years of market research and analytics working across Radio and press before moving into world of sport in 2008 when he took over as Head of EMEA Research at Eurosport',
     company: 'Formula 1',
-    img: '../img/speaker1.jpg',
+    img: './img/speaker1.jpg',
   },
 
   {
     name: 'Erik Groen',
     textCard: 'Currently Erik is responsible for new business development related to Connectivity for ENGIE Group. ENGIE’s aim is to lead the zero carbon transition as-a-service',
     company: 'Engie',
-    img: '../img/speaker2.jpg',
+    img: './img/speaker2.jpg',
   },
 
   {
     name: 'Doug McKnight',
     textCard: 'Doug McKnight is leading Dow efforts to derive value in safety and productivity across Dows Operations in EMEAI through the adaptation of Industry 4 solutions',
     company: 'Dow',
-    img: '../img/speaker3.jpg',
+    img: './img/speaker3.jpg',
   },
 
   {
     name: 'Francois Blanchard',
     textCard: 'Experienced sales and business developement director with over 18 years demonstrated history of working in Telecommunications industry addressing security and connectivity challenges on global accounts',
     company: 'Truphone',
-    img: '../img/speaker4.jpg',
+    img: './img/speaker4.jpg',
   },
   {
     name: 'Dinky Lin',
     textCard: 'Dinky Lin is responsible for consultation on end-to-end IoT  AI solutions and services for various verticals including Intelligent Buildings  Smart Cities domains transportation agriculture  logistics',
     company: 'China Mobile International (UK) Ltd',
-    img: '../img/speaker5.jpg',
+    img: './img/speaker5.jpg',
   },
 
   {
     name: 'Nandini Chauhan',
     textCard: 'Nandini is Technical Lead at FINN  Banking of Things. Works for ING since 2013 first as an IT Consultant for Sogeti later joined ING as an internal employee in 2015',
     company: 'FINN - Banking of Things',
-    img: '../img/speaker6.jpg',
+    img: './img/speaker6.jpg',
   },
 ];
 

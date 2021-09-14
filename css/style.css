@@ -9,12 +9,13 @@ a {
 }
 
 a:hover {
-  color: #0088cc !important;
+  color: #08c !important;
 }
 
 a:active {
   color: #007bff !important;
 }
+
 .top-nav {
   display: none;
 }
@@ -89,7 +90,6 @@ a:active {
   background: center / cover no-repeat url(../img/background_text.jpg);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   text-align: center;
 }
 
@@ -101,12 +101,11 @@ a:active {
   margin: 30px;
 }
 
-.photo-p{
+.photo-p {
   font-size: calc(100% + 1.2vw);
   line-height: calc(100% + 1.5vw);
   margin: 30px;
 }
-
 
 .date {
   font-family: 'COCOGOOSE', sans-serif;
@@ -116,29 +115,27 @@ a:active {
   margin-top: 15px;
 }
 
-.about-us-p{
-
-        text-align: center;
-        font-family: 'COCOGOOSE', sans-serif;
-        font-size: calc(100% + 0.5vw);
-        font-weight: bold;
-        color: gray;
-        margin-top: 15px;
-    
+.about-us-p {
+  text-align: center;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: calc(100% + 0.5vw);
+  font-weight: bold;
+  color: gray;
+  margin-top: 15px;
 }
 
-.our-logo{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: 2px solid rgb(187, 187, 187);
+.our-logo {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid rgb(187, 187, 187);
 }
 
-.our-logo-haeder{
-    color: rgb(54, 52, 52);
-    text-align: center;
-    margin-top: 100px;
+.our-logo-haeder {
+  color: rgb(54, 52, 52);
+  text-align: center;
+  margin-top: 100px;
 }
 
 .logo-img {
@@ -149,8 +146,6 @@ a:active {
   background-position-y: 41px;
   filter: grayscale(100%) contrast(0%);
 }
-
-
 
 .place {
   font-family: 'COCOGOOSE', sans-serif;
@@ -324,7 +319,7 @@ a:active {
   color: rgba(11, 32, 46, 0.616);
 }
 
-.USA1{
+.USA1 {
   background-image: url(../img/USA2018.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -332,25 +327,27 @@ a:active {
   height: 330px;
 }
 
-.USA2{
+.USA2 {
   background-image: url(../img/USA2017.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 360px;
   height: 330px;
 }
+
 .event-photo {
   margin: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0px !important;
+  padding: 0 !important;
   background-color: #ec5242;
   background-blend-mode: multiply;
   background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 20px;
 }
+
 .opacity {
   opacity: 0.5;
 }
@@ -358,6 +355,7 @@ a:active {
 .opacity:hover {
   opacity: 1;
 }
+
 .text-block {
   color: white;
   position: absolute;
@@ -366,289 +364,281 @@ a:active {
   text-align: center;
 }
 
-.our-photos{
+.our-photos {
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height:1036px ;
+  height: 1036px;
   border-bottom: 2px solid rgb(187, 187, 187);
   justify-content: space-around;
 }
 
-.main-nav-menu{
+.main-nav-menu {
   display: none;
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
-.email{
+.email {
   color: #414246 !important;
 }
 
-
-.card-all{
+.card-all {
   display: flex;
   flex-wrap: wrap;
-
 }
+
 .speaker-card {
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
   gap: 25px;
-
 }
-.card-flot{
+
+.card-flot {
   float: right;
 }
+
 .card-img {
   max-width: 150px;
   float: left;
   max-height: 150px;
   padding: 20px;
-}}
-
-.speaker-name{
-  font-size: calc(100% + 0.5vw);
-  font-weight: bold;
-  
 }
 
-.company{
+.speaker-name {
+  font-size: calc(100% + 0.5vw);
+  font-weight: bold;
+}
+
+.company {
   font-size: calc(80% + 0.1vw);
   font-style: italic;
   color: #ec5242;
   border-bottom: 1px solid;
 }
 
-.speaker-dis{
+.speaker-dis {
   font-size: calc(70% + 0.1vw);
 }
 
-.speaker-main{
+.speaker-main {
   text-align: center;
 }
-  @media only screen and (min-width: 768px) {
-    .body {
-      position: relative;
-      display: grid;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      justify-content: center;
-      align-items: center;
-      justify-items: center;
-      align-content: center;
-    }
 
-    .top-nav-ul {
-      list-style-type: none;
-      color: white;
-      gap: 20px;
-      margin-bottom: 0 !important;
-      position: relative;
-      left: -188px;
+@media only screen and (min-width: 768px) {
+  .body {
+    position: relative;
+    display: grid;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
   }
-    .top-nav {
-      display: block;
-    }
 
-    .main-nav {
-      display: none;
+  .top-nav-ul {
+    list-style-type: none;
+    color: white;
+    gap: 20px;
+    margin-bottom: 0 !important;
+    position: relative;
+    left: -188px;
+  }
+
+  .top-nav {
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
   }
 
   .hamburger {
-display: none;
-}
+    display: none;
+  }
 
-.home-section {
-  background-size: cover;
-  padding: 118px;
-  height: 100%;
-}
-.navbar{
-  margin-bottom: 0px !important;
-}
+  .home-section {
+    background-size: cover;
+    padding: 118px;
+    height: 100%;
+  }
 
-.main-nav-menu {
-  height: 80px;
-  display: flex;
+  .navbar {
+    margin-bottom: 0 !important;
+  }
+
+  .main-nav-menu {
+    height: 80px;
+    display: flex;
   }
 
   .nav-bar {
     display: flex;
     width: 100%;
     justify-content: space-around;
-}
-
- .nav-link{
-   color: rgba(0,0,0,.7) !important;
- }
- .logo {
-  filter: grayscale(100%) contrast(0%);
-  height: 86%;
-  margin-top: 5px;
-}
-
-.home-haeder {
-  font-family: 'COCOGOOSE', sans-serif;
-  font-weight: bold;
-  font-size: calc(100% + 4.2vw);
-  background: center / cover no-repeat url(../img/background_text.jpg);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  width: 60%;
-  line-height: 75px;
-    text-align: left;
-}
-
-.home-title{display: none;}
-
-.home-contanier {
-  display: flex;
-  text-align: left;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-
-.main-page-items {
-  display: flex;
-  flex-direction: row;
-  gap: 70px;
-}
-
-.program-item {
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 255px;
-  display: flex;
-  gap: 17px;
-  margin: 7px;
-  padding: 25px;
-  max-height: 218px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-page {
-
-    height: 450px;
-
-}
-
-.sponsers-list {
-  display: flex;
-  gap: 119px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-.sponsors {
-  height: 260px;
-}
-
-.end {
-  justify-content: flex-end;
-}
-
-.about{
-  text-align: center !important;
-  width: 100%;
-
-}
-
-.logo-img {
-  height: 187px;
-}
-
-.our-logo-haeder {
-  margin-top: 30px;
-}
-
-.our-photos {
-  height: 792px;
-}
-.row {
-  margin-right: 0px !important;
-  margin-left: 0px !important;
-}
-
-.end{
-  background-color: #272a31;
-  margin-top: 0px;
-}
-.footer-p {
-  color: white;
-  font-size: 22px;
-  font-family: fangsong;
-  line-height: 45px;
-}
-
-.footer-logo {
-  width: 221px;
-  padding: 21px;
-}
-
-.orange{
-  border: 3px solid #ec5242;
-}
-
-
-
-.card-all{
-  display: flex;
-  flex-wrap: wrap;
-
-}
-.speaker-card {
-  flex: 1 1 50%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  gap: 25px;
-  padding-top: 0px;
-  padding-right: 145px;
-  padding-left: 157px;
-}
-.card-flot{
-  float: right;
-}
-.card-img{
-max-width: 150px;
-float: left;
-max-height: 150px;
-}
-
-.speaker-name{
-  font-size: calc(100% + 0.5vw);
-  font-weight: bold;
-  
-}
-
-.company{
-  font-size: calc(80% + 0.1vw);
-  font-style: italic;
-  color: #ec5242;
-  border-bottom: 1px solid;
-}
-
-.speaker-dis{
-  font-size: calc(90% + 0.1vw);
-}
-
-.speaker-main{
-  text-align: center;
-}
-
   }
 
+  .nav-link {
+    color: rgba(0, 0, 0, 0.7) !important;
+  }
+
+  .logo {
+    filter: grayscale(100%) contrast(0%);
+    height: 86%;
+    margin-top: 5px;
+  }
+
+  .home-haeder {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: bold;
+    font-size: calc(100% + 4.2vw);
+    background: center / cover no-repeat url(../img/background_text.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 60%;
+    line-height: 75px;
+    text-align: left;
+  }
+
+  .home-title { display: none; }
+
+  .home-contanier {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .main-page-items {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+  }
+
+  .program-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 255px;
+    display: flex;
+    gap: 17px;
+    margin: 7px;
+    padding: 25px;
+    max-height: 257px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-page {
+    height: 450px;
+  }
+
+  .sponsers-list {
+    display: flex;
+    gap: 119px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .sponsors {
+    height: 260px;
+  }
+
+  .about {
+    text-align: center !important;
+    width: 100%;
+  }
+
+  .logo-img {
+    height: 187px;
+  }
+
+  .our-logo-haeder {
+    margin-top: 30px;
+  }
+
+  .our-photos {
+    height: 792px;
+  }
+
+  .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .end {
+    background-color: #272a31;
+    margin-top: 0;
+    justify-content: flex-end;
+  }
+
+  .footer-p {
+    color: white;
+    font-size: 22px;
+    line-height: 45px;
+  }
+
+  .footer-logo {
+    width: 221px;
+    padding: 21px;
+  }
+
+  .orange {
+    border: 3px solid #ec5242;
+  }
+
+  .card-all {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .speaker-card {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 0;
+    padding-right: 145px;
+    padding-left: 157px;
+  }
+
+  .card-flot {
+    float: right;
+  }
+
+  .card-img {
+    max-width: 150px;
+    float: left;
+    max-height: 150px;
+  }
+
+  .speaker-name {
+    font-size: calc(100% + 0.5vw);
+    font-weight: bold;
+  }
+
+  .company {
+    font-size: calc(80% + 0.1vw);
+    font-style: italic;
+    color: #ec5242;
+    border-bottom: 1px solid;
+  }
+
+  .speaker-dis {
+    font-size: calc(90% + 0.1vw);
+  }
+
+  .speaker-main {
+    text-align: center;
+  }
+}}
